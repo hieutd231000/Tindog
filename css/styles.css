@@ -1,11 +1,20 @@
 body{
     text-align: center;
 }
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
 h2{
     font-family: "Montserrat-Black";
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     padding-bottom: 5px;  
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
 }
 .container-fluid{
     padding: 7% 15%;
@@ -34,13 +43,8 @@ h2{
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
 }
-h1{
-    font-family: "Montserrat-Black";
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
 .download-button{
-    margin: 5% 3% 5% 0;
+    margin: 5% 2% 5% 2%;
 }
 .fab{
     padding-right: 5px;
@@ -56,10 +60,6 @@ h1{
 #features{
     background-color: #fff;
     position: relative; 
-}
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
 }
 p {
     color: #8f8f8f;
@@ -103,5 +103,39 @@ p {
 
 /* price section */
 .card{
-    margin: 10px;
+    margin: 50px 5px 0px;
 }
+.card-body h2{
+    font-size: 2.5rem;
+}
+
+/* cta section */
+#cta{
+    color: #fff;
+    background-color: #ff4c68;
+}
+/* footer section */
+#footer .container-fluid{
+    padding: 50px 15%;
+}
+.fab-footer{
+    margin: 3px;
+}
+#footer p{
+    padding-top: 10px;
+}
+/* media title */
+@media (max-width: 1080px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        padding-left: 0px;
+    }
+    #title .navbar{
+        text-align: right;
+    }
+    #title .row{
+        text-align: center;
+    }
+}
+
